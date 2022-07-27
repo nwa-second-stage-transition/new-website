@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+title: We believe in community and like to be involved.
 ---
 <!-- Page Intro section -->
 <div class="container">
@@ -18,9 +19,9 @@ layout: base.njk
     <div class="col-lg-12">
       {% for post in collections.post | reverse %}
       <article>
-        <h1>
+        <h2>
           <a class="" href="{{ post.url | url }}">{{ post.data.title }}</a>
-        </h1>
+        </h2>
         <p>{{ post.data.publishDate | postDate }}</p>
       </article>
       {% endfor %}
@@ -29,4 +30,3 @@ layout: base.njk
   <!-- END Team Section -->
   <hr class="featurette-divider">
 </div><!-- /.container -->
-</div>

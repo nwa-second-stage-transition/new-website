@@ -15,16 +15,31 @@ html, body {
   width: 100%;
 }
 
-/* text */
+/* iframe formating */
 
-.text1 {
-  color: rgb(197, 90, 17);
-  font-family: "Times New Roman", Times, serif;
+#contact-iframe {
+  min-width: 640 important!; 
+  min-height: 1082 important!;
+  border: auto; 
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto; 
+  margin-right: auto;
 }
 
-.text2 {
-  color: rgb(31, 78, 121);
-  font-family: "Times New Roman", Times, serif;
+/* text */
+
+.text {
+  color: #4d5156;
+  font-family: arial,sans-serif;
+}
+
+.linktext {
+  color: #1a0dab;
+}
+
+.border-zero {
+  border: 0;
 }
 
 /** carousel **/
@@ -94,10 +109,12 @@ main {
 }
 .nav-link:hover, .nav-link:focus {
   border-bottom-color: #ffc439;
+  background-color: #48bdf3 important!;
 }
 .active {
   font-weight: 400;
   border-bottom-color: #ffc439;
+  background-color: #48bdf3 important!;
 }
 a {
   color: #222;

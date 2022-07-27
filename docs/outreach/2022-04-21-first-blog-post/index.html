@@ -6,14 +6,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>First Blog Post</title>
-
-<meta charset="utf-8">
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-<title>First Blog Post</title>
 <meta content="NWASST is a non-profit organization in Siloam Springs Arkansas." name="description">
-<link href="https://nwasecondstagetransition.org/new-website-2022/ + '/assets/nwasst-logo.png'" rel="shortcut icon" type="image/png">
-<link href="https://nwasecondstagetransition.org/new-website-2022/ + '/sitemap.xml'" rel="sitemap" title="Sitemap" type="application/xml">
+<link href="https://nwasecondstagetransition.org/new-website-2022//assets/nwasst-logo.png" rel="shortcut icon" type="image/png">
+<link href="https://nwasecondstagetransition.org/new-website-2022//sitemap.xml" rel="sitemap" title="Sitemap" type="application/xml">
 <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <!-- END Head -->
   <style>
@@ -9846,16 +9843,31 @@ html, body {
   width: 100%;
 }
 
-/* text */
+/* iframe formating */
 
-.text1 {
-  color: rgb(197, 90, 17);
-  font-family: "Times New Roman", Times, serif;
+#contact-iframe {
+  min-width: 640 important!; 
+  min-height: 1082 important!;
+  border: auto; 
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto; 
+  margin-right: auto;
 }
 
-.text2 {
-  color: rgb(31, 78, 121);
-  font-family: "Times New Roman", Times, serif;
+/* text */
+
+.text {
+  color: #4d5156;
+  font-family: arial,sans-serif;
+}
+
+.linktext {
+  color: #1a0dab;
+}
+
+.border-zero {
+  border: 0;
 }
 
 /** carousel **/
@@ -9925,10 +9937,12 @@ main {
 }
 .nav-link:hover, .nav-link:focus {
   border-bottom-color: #ffc439;
+  background-color: #48bdf3 important!;
 }
 .active {
   font-weight: 400;
   border-bottom-color: #ffc439;
+  background-color: #48bdf3 important!;
 }
 a {
   color: #222;
@@ -10165,14 +10179,16 @@ footer {
                 <a class="nav-link p-2 " href="https://nwasecondstagetransition.org/new-website-2022/contact/">Contact</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle p-2 "" href="#" role="button" data-bs-toggle="dropdown">Sign-Up</a>
+                <a class="nav-link dropdown-toggle p-2 " href="#" role="button" data-bs-toggle="dropdown">Sign-Up</a>
                 <ul class="dropdown-menu dropdown-menu-end">
                   <li><a class="dropdown-item" href="https://nwasecondstagetransition.org/new-website-2022/sign-up/assessment/#">Assessment</a></li>
                   <li><a class="dropdown-item" href="https://nwasecondstagetransition.org/new-website-2022/sign-up/class-group/#">Class / Group</a></li>
                 </ul>
               </li>
               <li class="nav-item col-6 col-md-auto">
-                <a href="#"><button type="button" class="btn btn-warning">Donate</button></a>
+                <form action="https://nwasecondstagetransition.org" method="get">
+                  <button type="button" class="btn btn-warning">Donate</button>
+                </form>              
               </li>
             </ul>
           </div>
@@ -10230,7 +10246,7 @@ footer {
           <div class="myborder">
             <h5 class="text-center">NWA Second Stage Transition<span></span></h5>
             <address class="text-center">
-              P.O. Box 1128, </br>Siloam Springs, Arkansas 72761
+              P.O. Box 1128, <br>Siloam Springs, Arkansas 72761
             </address>
           </div>
         </div>
@@ -10259,7 +10275,7 @@ footer {
           </li>
           <li class="text-center">
             <a class="" href='https://www.natpia.com/providers/910/cecelia-dorko/' target='_blank'>
-              <img class="certificate-link rounded-circle" src='https://storage.googleapis.com/parenting-org-static/img/natpia-badge-160.png'/>
+              <img class="certificate-link rounded-circle" src='https://storage.googleapis.com/parenting-org-static/img/natpia-badge-160.png' alt="National Parent Instructor Assocition link to Cecelia's profile."/>
             </a>
           </li>
         </ul>

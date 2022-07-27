@@ -24,14 +24,16 @@
                 <a class="nav-link p-2 {{ 'active' if '/contact' in page.url }}" href="{{site.url + 'contact/'}}">Contact</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle p-2 {{ 'active' if '/sign-up/' in page.url }}"" href="#" role="button" data-bs-toggle="dropdown">Sign-Up</a>
+                <a class="nav-link dropdown-toggle p-2 {{ 'active' if '/sign-up/' in page.url }}" href="#" role="button" data-bs-toggle="dropdown">Sign-Up</a>
                 <ul class="dropdown-menu dropdown-menu-end">
                   <li><a class="dropdown-item" href="{{site.url + 'sign-up/assessment/#'}}">Assessment</a></li>
                   <li><a class="dropdown-item" href="{{site.url + 'sign-up/class-group/#'}}">Class / Group</a></li>
                 </ul>
               </li>
               <li class="nav-item col-6 col-md-auto">
-                <a href="#"><button type="button" class="btn btn-warning">Donate</button></a>
+                <form action="https://nwasecondstagetransition.org" method="get">
+                  <button type="button" class="btn btn-warning">Donate</button>
+                </form>              
               </li>
             </ul>
           </div>
