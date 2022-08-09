@@ -20,7 +20,7 @@ title: We believe in community and like to be involved.
       {% for post in collections.post | reverse %}
       <article>
         <h2>
-          <a class="" href="{{ post.url | url }}">{{ post.data.title }}</a>
+          <a class="" href="{{ post.url | url }}" target="_self" rel="noopener noreferrer">{{ post.data.title }}</a>
         </h2>
         <p>{{ post.data.publishDate | postDate }}</p>
       </article>

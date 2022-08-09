@@ -96,7 +96,7 @@
                         <xsl:value-of select="$pno"/>
                     </td>
                     <td>
-                        <a href="{$loc}">
+                        <a href="{$loc}" target="_self" rel="noopener noreferrer">
                             <xsl:value-of select="sm:loc"/>
                         </a>
                     </td>
@@ -134,7 +134,7 @@
                     </td>
                     <td>
                         <p>
-                            <a href="{$loc}">
+                            <a href="{$loc}" target="_self" rel="noopener noreferrer">
                                 <xsl:value-of select="sm:loc"/>
                             </a>
                         </p>
@@ -163,7 +163,7 @@
         </xsl:variable>
         <p>
             Xhtml:
-            <a href="{$altloc}">
+            <a href="{$altloc}" target="_self" rel="noopener noreferrer">
                 <xsl:value-of select="@href"/>
             </a>
             <span>
@@ -184,7 +184,7 @@
         </xsl:variable>
         <p>
             Image:
-            <a href="{$loc}">
+            <a href="{$loc}" target="_self" rel="noopener noreferrer">
                 <xsl:value-of select="image:loc"/>
             </a>
             <span>
@@ -206,7 +206,7 @@
         </xsl:variable>
         <p>
             Video:
-            <a href="{$loc}">
+            <a href="{$loc}" target="_self" rel="noopener noreferrer">
                 <xsl:choose>
                     <xsl:when test="video:player_loc != ''">
                         <xsl:value-of select="video:player_loc"/>
