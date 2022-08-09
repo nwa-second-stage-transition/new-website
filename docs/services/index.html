@@ -10359,29 +10359,47 @@ footer {
   </div>
   <!-- Accordion - ends -->
   <div class="col-sm-12 col-md-12 p-3 m-3 w-75 mx-auto">
-    <!-- carousel start -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <!-- servicesCarousel -->
+    <div id="servicesCarousel" class="carousel carousel-dark slide " data-bs-interval="8000" data-bs-ride="carousel"
+      data-bs-keyboard="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img alt="Support Group" class="d-block" src="/assets/img/group-discusion-612w.jpg">
+          <div class="container">
+            <div class="carousel-caption align-items-center h-75">
+              <img alt="Support Group" class="d-block fuild-img" src="/assets/img/group-discusion-612w.jpg">
+            </div>
+          </div>
         </div>
         <div class="carousel-item">
-          <img alt="Office" class="d-block" src="/assets/img/office2-w525.jpg">
+          <div class="container">
+            <div class="carousel-caption align-items-center h-75">
+              <img alt="Office" class="d-block fuild-img" src="/assets/img/office2-w525.jpg">
+            </div>
+          </div>
         </div>
         <div class="carousel-item">
-          <img alt="Self help books" class="d-block" src="/assets/img/dv-book-720w.jpg">
+          <div class="container">
+            <div class="carousel-caption align-items-center h-75">
+              <img alt="Self help books" class="d-block fuild-img" src="/assets/img/dv-book-720w.jpg">
+            </div>
+          </div>
         </div>
       </div>
-      <button class="carousel-control-prev w-50" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next w-50" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div><!-- carousel end -->
-  </div>
+    </div>
+  </div> <!-- END servicesCarousel -->
 </div> <!-- end container -->
 </main>
   <!-- END Main Content -->
