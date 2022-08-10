@@ -1,39 +1,39 @@
-        <nav aria-label="Main navigation" class="container-xxl flex-wrap flex-md-nowrap">
-          
-          <a aria-label="NWASST" class="navbar-brand p-0 me-3" href="/"><img alt="logo" class="custom-media me-1 img-fluid" id="logo" src="{{site.url + 'images/nwasst-logo-with-name-revised-white.svg'}}"></a> 
-          <button aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#bdNavbar" data-bs-toggle="collapse" type="button"><svg class="bi" height="32" viewbox="0 0 16 16" width="32" xmlns="http://www.w3.org/2000/svg">
-          <path d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" fill-rule="evenodd"></path></svg></button>
-          <div class="collapse navbar-collapse" id="bdNavbar">
-            <hr class="d-md-none text-black-50">
-            <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
-              <li class="nav-item col-6 col-md-auto">
-                <a class="nav-link p-2 {{ 'active' if site.url == page.url }}" target="_self" rel="noopener noreferrer" href="{{site.url}}">Home</a>
-              </li>
-              <li class="nav-item col-6 col-md-auto">
-                <a class="nav-link p-2 {{ 'active' if '/about' in page.url }}" target="_self" rel="noopener noreferrer" href="{{site.url + 'about/'}}">About</a>
-              </li>
-              <li class="nav-item col-6 col-md-auto">
-                <a class="nav-link p-2 {{ 'active' if '/services' in page.url }}" target="_self" rel="noopener noreferrer" href="{{site.url + 'services/'}}">Services</a>
-              </li>
-              <li class="nav-item col-6 col-md-auto">
-                <a class="nav-link p-2 {{ 'active' if '/outreach' in page.url }}" target="_self" rel="noopener noreferrer"  href="{{site.url + 'outreach/'}}">Outreach</a>
-              </li>
-              <li class="nav-item col-6 col-md-auto">
-                <a class="nav-link p-2 {{ 'active' if '/get-involved' in page.url }}" target="_self" rel="noopener noreferrer" href="{{site.url + 'get-involved/'}}">Get Involved</a>
-              </li>
-              <li class="nav-item col-6 col-md-auto">
-                <a class="nav-link p-2 {{ 'active' if '/contact' in page.url }}" target="_self" rel="noopener noreferrer" href="{{site.url + 'contact/'}}">Contact</a>
-              </li>
-              <li class="nav-item col-6 col-md-auto">
-                <a class="nav-link p-2 btn text-primary bg-warning" href="https://www.paypal.com/" target="_blank" rel="noopener noreferrer">Donate</a>           
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle p-2 {{ 'active' if '/sign-up/' in page.url }}" href="#" target="_self" rel="noopener noreferrer" role="button" data-bs-toggle="dropdown">Sign-Up</a>
-                <ul class="dropdown-menu dropdown-menu-end">
-                  <li><a class="dropdown-item" href="{{site.url + 'sign-up/assessment/#'}}" target="_self" rel="noopener noreferrer" >Assessment</a></li>
-                  <li><a class="dropdown-item" href="{{site.url + 'sign-up/class-group/#'}}" target="_self" rel="noopener noreferrer" >Class / Group</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </nav>
+<nav aria-label="Main navigation" class="container-xxl flex-wrap flex-md-nowrap">
+  
+  <a aria-label="NWASST" class="navbar-brand p-0 me-3" href="/"><img alt="logo" class="custom-media me-1 img-fluid" id="logo" src="{{site.url + 'images/nwasst-logo-with-name-revised-white.svg'}}"target="_self" rel="noopener noreferrer"></a> 
+  <button aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#bdNavbar" data-bs-toggle="collapse" type="button"><svg class="bi" height="32" viewbox="0 0 16 16" style="color:white;" width="32" xmlns="http://www.w3.org/2000/svg">
+  <path d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" fill-rule="evenodd"></path></svg></button>
+  <div class="collapse navbar-collapse" id="bdNavbar">
+    <hr class="d-md-none text-black-50">
+    <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+      <li class="nav-item col-6 col-md-auto">
+        <a class="nav-link p-2" href="{{site.url}}" target="_self" rel="noopener noreferrer" >Home</a>
+      </li>
+      <li class="nav-item col-6 col-md-auto">
+        <a class="nav-link p-2 {{ 'active' if '/about' in page.url }}" href="{{site.url + 'about/'}}" target="_self" rel="noopener noreferrer" >About</a>
+      </li>
+      <li class="nav-item col-6 col-md-auto">
+        <a class="nav-link p-2 {{ 'active' if '/services' in page.url }}" href="{{site.url + 'services/'}}" target="_self" rel="noopener noreferrer" >Services</a>
+      </li>
+      <li class="nav-item col-6 col-md-auto">
+        <a class="nav-link p-2 {{ 'active' if '/outreach' in page.url }}" href="{{site.url + 'outreach/'}}" target="_self" rel="noopener noreferrer" >Outreach</a>
+      </li>
+      <li class="nav-item col-6 col-md-auto">
+        <a class="nav-link p-2 {{ 'active' if '/get-involved' in page.url }}" href="{{site.url + 'get-involved/'}}" target="_self" rel="noopener noreferrer" >Get Involved</a>
+      </li>
+      <li class="nav-item col-6 col-md-auto">
+        <a class="nav-link p-2 {{ 'active' if '/contact' in page.url }}" href="{{site.url + 'contact/'}}" target="_self" rel="noopener noreferrer" >Contact</a>
+      </li>
+      <li class="nav-item col-6 col-md-auto">
+        <a class="nav-link p-2 btn text-primary bg-warning" href="https://www.paypal.com/" target="_blank" rel="noopener noreferrer">Donate</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle p-2 {{ 'active' if '/sign-up/' in page.url }}" href="#" role="button" target="_self" rel="noopener noreferrer"  data-bs-toggle="dropdown">Sign-Up</a>
+        <ul class="dropdown-menu dropdown-menu-end ">
+          <li><a class="dropdown-item" href="{{site.url + 'sign-up/assessment/#'}}" target="_self" rel="noopener noreferrer" >Assessment</a></li>
+          <li><a class="dropdown-item" href="{{site.url + 'sign-up/class-group/#'}}" target="_self" rel="noopener noreferrer" >Class / Group</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
