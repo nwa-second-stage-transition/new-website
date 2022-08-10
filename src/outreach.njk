@@ -5,28 +5,25 @@ title: We believe in community and like to be involved.
 <!-- Page Intro section -->
 <div class="container">
   <div id="ourStory" class="position-relative overflow-hidden p-3 p-md-3 m-md-3 text-center">
-    <div class="col-md-11 mx-auto my-3 ">
+    <div class="col-md-11 mx-auto my-3">
       <h1 class="display-4 pb-3 fw-normal">Outreach</h1>
-      <p class="lead fw-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab fugit, excepturi obcaecati sed, quasi officiis quis quod magni ut placeat a voluptatum debitis porro dolores.</p>
+      <p class="lead fw-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab fugit, excepturi obcaecati
+        sed, quasi officiis quis quod magni ut placeat a voluptatum debitis porro dolores.</p>
     </div>
   </div>
-</div>
-<!-- END Page Intro section -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
-<div class="container">
-  <!-- Three columns of text below the carousel -->
-  <div id="team" class="row">
-    <div class="col-lg-12">
-      {% for post in collections.post | reverse %}
-      <article>
-        <h2>
-          <a class="" href="{{ post.url | url }}" target="_self" rel="noopener noreferrer">{{ post.data.title }}</a>
-        </h2>
-        <p>{{ post.data.publishDate | postDate }}</p>
-      </article>
-      {% endfor %}
-    </div><!-- /.col-lg-12 -->
-  </div><!-- /.row -->
-  <!-- END Team Section -->
+  <!-- End Page Intro section -->
   <hr class="featurette-divider">
-</div><!-- /.container -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+  <div class="container">
+    <!-- Three columns of text below the carousel -->
+    <div id="team" class="row w-75 mx-auto">
+      <div class="col-lg-12">
+        {% for post in collections.post | reverse %}<article>
+          <h2><a class="" href="{{ post.url | url }}" target="_self" rel="noopener noreferrer">{{ post.data.title }}</a></h2>
+          <p>{{ post.data.publishDate | postDate }}</p>
+        </article>
+        {% endfor %}</div><!-- /.col-lg-12 -->
+    </div><!-- /.row -->
+    <!-- END Team Section -->
+  </div><!-- /.container -->
+</div>
