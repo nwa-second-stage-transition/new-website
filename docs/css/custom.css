@@ -16,6 +16,10 @@ html, body {
   width: 100%;
 }
 
+.max-width {
+  max-width: 720px important;
+}
+
 /* iframe formating */
 
 #contact-iframe {
