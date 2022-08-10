@@ -10,8 +10,8 @@ html, body {
   width: 100%;
 }
 
-#force-below-the-fold {
-  display: table;
+#below-fold {
+  display: table important; 
   height: 100%;
   width: 100%;
 }
