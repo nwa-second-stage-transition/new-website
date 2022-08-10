@@ -18,9 +18,9 @@ templateLayoutResolver: njk, md
   <!-- breadcrumb -->
   <nav aria-label="breadcrumb" class="container">
     {% if '/outreach/*' in page.url %}
-      {% include '../_includes/post-bc.html' %}
+      {% include '../_includes/post-bc.njk' %}
     {% else %}
-      {% include '../_includes/base-bc.html' %}    
+      {% include '../_includes/base-bc.njk' %}    
     {% endif %}
   </nav>
   <!-- END breadcrumb -->

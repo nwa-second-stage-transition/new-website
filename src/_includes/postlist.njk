@@ -1,3 +1,6 @@
+---
+templateEngineOverride: njk,md
+---
 {% for post in collections.posts %}
 <li><a href="{{ post.url }}" target="_self" rel="noopener noreferrer">{{ post.data.title }}</a></li>
 {% endfor %}
