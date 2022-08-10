@@ -77,7 +77,7 @@ html, body {
   background-color: #eee;
 }
 .landing {
-  background-image: url("{{site.url + 'assets/trees-along-path.jpg'}}");
+  background-image: url("{{site.url + 'images/trees-along-path.jpg'}}");
   max-height: 100vh;
   min-height: 100vh;
   /* Full height */
