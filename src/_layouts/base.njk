@@ -1,17 +1,12 @@
+---
+templateEngineOverride: njk,md
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <!-- Head -->
   {% include '../_includes/head.html' %}
   <!-- END Head -->
-  <style>
-    /** bootstrap 5.1.3 **/
-    {% include '../_includes/css/bootstrap51.css'%}
-    /** END bootstrap 5.1.3 **/
-    /** Custom CSS **/
-    {% include '../_includes/css/custom.css'%}
-    /** END Custom CSS **/
-  </style>
 </head>
 <body class="">
   <!-- Header -->
@@ -34,23 +29,11 @@
   <main class="mt-5">{{ content | safe }}</main>
   <!-- END Main Content -->
   <!-- Footer -->
-  <footer class="bg-primary">{% include '../_includes/footer4.html' %}</footer>
+  <footer class="bg-primary">{% include '../_includes/footer.html' %}</footer>
   <!-- END Footer -->
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>{% include '../_includes/footerScript.html' %}</script>
-  <!-- Netlify -->
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
+  <script src="{{site.url + 'javascript/footer-javascript.js'}}"></script>
   <!-- END Scripts -->
 </body>
 </html>
