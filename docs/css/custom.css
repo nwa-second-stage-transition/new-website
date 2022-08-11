@@ -81,7 +81,7 @@ html, body {
   background-color: #eee;
 }
 .landing {
-  background-image: url("{{site.url + 'images/trees-along-path.jpg'}}");
+  background-image: url("https://github.com/nwa-second-stage-transition/nwa-second-stage-transition.github.io/blob/master/assets/img/avenue-1920w.jpg?raw=true");
   max-height: 100vh;
   min-height: 100vh;
   /* Full height */
