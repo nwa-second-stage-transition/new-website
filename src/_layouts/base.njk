@@ -4,11 +4,13 @@ templateEngineOverride: njk,md
 <!DOCTYPE html>
 <html lang="en">
   <head>{% include '../_includes/head.html' %}</head>
-  <body class="text {{ 'landing' if page.fileSlug == '' }}">
+  <body class="text ">
     <header>
       <div  class="navbar navbar-expand-md navbar-dark bd-navbar bg-primary">{% include '../_includes/header.njk' %}</div>{% if page.fileSlug != "" %}<nav aria-label="breadcrumb" class="container">{% if '/outreach/*' in page.url %}{% include '../_includes/breadcrumbs/outreach-bc.njk' %}{% else %}{% include '../_includes/breadcrumbs/base-bc.njk' %}{% endif %}</nav>{% endif %}
     </header>
-    <main class="d-flex container flex-column mt-5">{{ content | safe }}</main>
+    <div class="{{ 'landing' if page.fileSlug == '' }}">
+      <main class="d-flex container flex-column">{{ content | safe }}</main>
+    </div>
     <footer class="bg-primary">{% include '../_includes/footer.html' %}</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{site.url + 'javascript/footer-javascript.js'}}"></script>
