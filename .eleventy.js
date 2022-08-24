@@ -6,6 +6,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ "src/css": "css" });
     eleventyConfig.addPassthroughCopy({ "src/images": "images" });
     eleventyConfig.addPassthroughCopy({ "src/javascript": "javascript" });
+    eleventyConfig.addPassthroughCopy({ "src/zohoverify": "zohoverify" });
     eleventyConfig.addPassthroughCopy("./src/robot.txt");
     eleventyConfig.addPassthroughCopy("./src/admin/config.yml");
     eleventyConfig.addPassthroughCopy("./src/sitemap.xsl");
