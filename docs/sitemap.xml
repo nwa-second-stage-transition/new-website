@@ -4,110 +4,6 @@
     
        
         <url>
-            <loc>https://nwasecondstagetransition.org//outreach/2022-03-19-anger-mangagement-resources/</loc>
-            <lastmod>2022-03-19T00:00:00.000Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
-            <loc>https://nwasecondstagetransition.org//</loc>
-            <lastmod>2022-04-07T23:23:06.451Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
-            <loc>https://nwasecondstagetransition.org//contact/</loc>
-            <lastmod>2022-04-11T13:17:59.194Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
-            <loc>https://nwasecondstagetransition.org//about/</loc>
-            <lastmod>2022-04-19T00:26:17.398Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
-            <loc>https://nwasecondstagetransition.org//get-involved/</loc>
-            <lastmod>2022-04-19T00:29:21.077Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
-            <loc>https://nwasecondstagetransition.org//outreach/</loc>
-            <lastmod>2022-04-19T12:56:07.083Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
-            <loc>https://nwasecondstagetransition.org//donation-completed/</loc>
-            <lastmod>2022-04-19T20:30:21.280Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
-            <loc>https://nwasecondstagetransition.org//donation-canceled/</loc>
-            <lastmod>2022-04-19T21:24:51.624Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
-            <loc>https://nwasecondstagetransition.org//404/</loc>
-            <lastmod>2022-04-19T23:42:59.339Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
-            <loc>https://nwasecondstagetransition.org//outreach/2022-04-21-first-blog-post/</loc>
-            <lastmod>2022-04-21T00:00:00.000Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
-            <loc>https://nwasecondstagetransition.org//sign-up/class-group/</loc>
-            <lastmod>2022-05-02T17:39:17.380Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
-            <loc>https://nwasecondstagetransition.org//services/</loc>
-            <lastmod>2022-05-02T21:45:47.887Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
-            <loc>https://nwasecondstagetransition.org//sign-up/assessment/</loc>
-            <lastmod>2022-05-18T02:42:10.856Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
             <loc>https://nwasecondstagetransition.org//outreach/2022-07-26-community-outreach/</loc>
             <lastmod>2022-07-26T00:00:00.000Z</lastmod>
             <changefreq>monthly</changefreq>
@@ -116,8 +12,96 @@
     
        
         <url>
+            <loc>https://nwasecondstagetransition.org//404/</loc>
+            <lastmod>2022-08-24T23:32:47.591Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>https://nwasecondstagetransition.org//donation-canceled/</loc>
+            <lastmod>2022-08-24T23:32:47.593Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>https://nwasecondstagetransition.org//donation-completed/</loc>
+            <lastmod>2022-08-24T23:32:47.595Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>https://nwasecondstagetransition.org//get-involved/</loc>
+            <lastmod>2022-08-24T23:32:47.596Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>https://nwasecondstagetransition.org//</loc>
+            <lastmod>2022-08-24T23:32:47.597Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>https://nwasecondstagetransition.org//outreach/</loc>
+            <lastmod>2022-08-24T23:32:47.598Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>https://nwasecondstagetransition.org//about/</loc>
+            <lastmod>2022-08-24T23:32:47.605Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
             <loc>https://nwasecondstagetransition.org//admin/</loc>
-            <lastmod>2022-07-26T20:25:22.084Z</lastmod>
+            <lastmod>2022-08-24T23:32:47.610Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>https://nwasecondstagetransition.org//contact/</loc>
+            <lastmod>2022-08-24T23:32:47.613Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>https://nwasecondstagetransition.org//services/</loc>
+            <lastmod>2022-08-24T23:32:47.689Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>https://nwasecondstagetransition.org//sign-up/assessment/</loc>
+            <lastmod>2022-08-24T23:32:47.694Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>https://nwasecondstagetransition.org//sign-up/class-group/</loc>
+            <lastmod>2022-08-24T23:32:47.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -125,7 +109,7 @@
        
         <url>
             <loc>https://nwasecondstagetransition.org//zohoverify/verifyforzoho/</loc>
-            <lastmod>2022-08-24T14:18:37.495Z</lastmod>
+            <lastmod>2022-08-24T23:32:47.700Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
