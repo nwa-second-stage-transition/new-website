@@ -83,7 +83,7 @@ html, body {
   background-color: #eee;
 }
 .landing {
-  background-image: url("https://github.com/nwa-second-stage-transition/nwa-second-stage-transition.github.io/blob/master/assets/img/avenue-1920w.jpg?raw=true");
+  background-image: url("https://nwasecondstagetransition.org/images/avenue-1920w.jpg");
   max-height: 100vh;
   min-height: 100vh;
   /* Full height */
