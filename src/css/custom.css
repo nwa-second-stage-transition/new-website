@@ -34,6 +34,8 @@ html, body {
   margin-right: auto;
 }
 
+
+
 /* text */
 
 .text {
@@ -234,7 +236,7 @@ footer {
 }
 
 .footer-img {
-  width: 8rem;
+  max-width: 8rem;
   height: auto;
 }
 
@@ -272,14 +274,14 @@ footer {
 }
 
 .certificate-link {
-  width: 8rem;
+  max-width: 8rem;
   padding: 1rem;
 }
 
 .social-link {
   width: 3rem;
   padding: 0.5rem;
-  visibility:visible;
+  visibility: visible;
 }
 
 .social-link:hover {
@@ -287,8 +289,9 @@ footer {
   background-color: #ffc439;
 }
 
-
-
+#facebook {
+  background-image: url("https://nwasecondstagetransition.org/images/facebook.svg");
+}
 
 /*************************** media break ******************************************/
 
