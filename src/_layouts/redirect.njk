@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include '../_includes/head.html' %}
+    <meta http-equiv="refresh" content="0; URL='{{ destination }}'" />
+    <title>Redirecting to: {{ destination }}</title>  
+</head>
+<body>
+  <!-- Redirect page -->
+  	<p class="">you should be redirecting to <a href="{{ site.url + redirect.to }}">{{ site.url + redirect.to }}</a></p>
+</body>
+</html>

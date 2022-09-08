@@ -3,7 +3,10 @@ templateEngineOverride: njk,md
 ---
 <!DOCTYPE html>
 <html lang="en">
-  <head>{% include '../_includes/head.html' %}</head>
+  <head>
+    {% include '../_includes/head.html' %}
+    <title>{{ title }}</title>
+    </head>
   <body class="text ">
     <header>
       <div  class="navbar navbar-expand-md navbar-dark bd-navbar bg-primary">{% include '../_includes/header.njk' %}</div>{% if page.fileSlug != "" %}<nav aria-label="breadcrumb" class="container">{% if '/outreach/*' in page.url %}{% include '../_includes/breadcrumbs/outreach-bc.njk' %}{% else %}{% include '../_includes/breadcrumbs/base-bc.njk' %}{% endif %}</nav>{% endif %}
