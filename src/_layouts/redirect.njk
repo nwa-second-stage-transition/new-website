@@ -5,7 +5,7 @@ templateEngineOverride: njk,md
 <html lang="en">
   <head>
     {% include '../_includes/head.html' %}
-    <meta http-equiv="refresh" content="30;" URL="{{ site.url + redirect.to }}">
+    <meta http-equiv="refresh" content="3;" URL="{{ site.url + redirect.to }}">
     <title>Redirecting to: {{ destination }}</title>
     </head>
   <body class="text ">
@@ -19,16 +19,4 @@ templateEngineOverride: njk,md
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{site.url + '/javascript/footer-javascript.js'}}"></script>
   </body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% include '../_includes/head.html' %}
-
-</head>
-<body>
-  <!-- Redirect page -->
-  	<p class="">you should be redirecting to <a href="{{ site.url + redirect.to }}">{{ site.url + redirect.to }}</a></p>
-</body>
 </html>
