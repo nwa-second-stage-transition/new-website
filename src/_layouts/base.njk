@@ -6,8 +6,9 @@ templateEngineOverride: njk,md
   <head>
     {% include '../_includes/head.html' %}
     <title>{{ title }}</title>
+    {% if page.fileSlug == ''%}<link rel="preload" href="{{site.url + '/images/trees-along-path.jpg'}}" as="image">{% endif %}
     </head>
-  <body class="text ">
+  <body class="text">
     <header>
       <div  class="navbar navbar-expand-md navbar-dark bd-navbar bg-primary">{% include '../_includes/header.njk' %}</div>{% if page.fileSlug != "" %}<nav aria-label="breadcrumb" class="container">{% if '/outreach/*' in page.url %}{% include '../_includes/breadcrumbs/outreach-bc.njk' %}{% else %}{% include '../_includes/breadcrumbs/base-bc.njk' %}{% endif %}</nav>{% endif %}
     </header>
