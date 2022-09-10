@@ -7,6 +7,7 @@ templateEngineOverride: njk,md
     {% include '../_includes/head.html' %}
     <title>{{ title }}</title>
     {% if page.fileSlug == ''%}<link rel="preload" href="{{site.url + '/images/trees-along-path-2300.webp'}}" as="image">{% endif %}
+    {% if page.fileSlug == '/admin/'%}<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>{% endif %}
     </head>
   <body class="text">
     <header>
