@@ -6,6 +6,10 @@ html {
   overflow: auto 
 }
 
+.bg-blue {
+  background-color: #0250C0 !important;
+}
+
 html, body {
   display: table;
   height: 100%;
