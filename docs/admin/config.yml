@@ -6,8 +6,8 @@ backend:
 publish_mode: editorial_workflow
 
 # These lines should *not* be indented
-media_folder: "docs/images/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "docs/img/uploads" # Media files will be stored in the repo under static/img/uploads
+public_folder: "/imimgages/uploads" # The src attribute for uploaded media will begin with /img/uploads
 
 collections:
   - name: "outreach" # Used in routes, e.g., /admin/collections/blog
