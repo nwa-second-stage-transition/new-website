@@ -6,6 +6,7 @@ templateEngineOverride: njk,md
   <head>
     {% include '../_includes/head.html' %}
     <meta http-equiv="refresh" content="3;" URL="{{ site.url + redirect.to }}">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://nwasecondstagetransition.org/images/*; child-src 'none';">
     <title>Redirecting to: {{ destination }}</title>
   </head>
   <body class="text ">
