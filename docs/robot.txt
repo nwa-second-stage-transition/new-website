@@ -1,0 +1,7 @@
+Sitemap: https://nwasecondstagetransition.org/sitemap.xml
+
+User-agent: *
+Disallow: /new-website-2022/*
+Disallow: /new-website/*
+Disallow: /blog/*
+Disallow: /outreach/*
