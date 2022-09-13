@@ -4,9 +4,8 @@ templateEngineOverride: njk,md
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% include '../_includes/head.html' %}
+    {% include '../_includes/head.njk' %}
     <meta http-equiv="refresh" content="3;" URL="{{ site.url + redirect.to }}">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://nwasecondstagetransition.org/images/*; child-src 'none';">
     <title>Redirecting to: {{ destination }}</title>
   </head>
   <body class="text ">
