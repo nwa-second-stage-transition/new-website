@@ -5,8 +5,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
-    eleventyConfig.addPassthroughCopy({ "src/images": "images" });
-    eleventyConfig.addPassthroughCopy({ "src/javascript": "javascript" });
+    eleventyConfig.addPassthroughCopy({ "src/img": "img" });
+    eleventyConfig.addPassthroughCopy({ "src/js": "js" });
     eleventyConfig.addPassthroughCopy({ "src/zohoverify": "zohoverify" });
     eleventyConfig.addPassthroughCopy("./src/robot.txt");
     eleventyConfig.addPassthroughCopy("./src/admin/config.yml");
