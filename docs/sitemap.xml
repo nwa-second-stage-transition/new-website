@@ -20,23 +20,7 @@
     
        
         <url>
-            <loc>https://nwasecondstagetransition.org/about/</loc>
-            <lastmod>2022-09-13T18:07:47.187Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
             <loc>https://nwasecondstagetransition.org/admin/</loc>
-            <lastmod>2022-09-13T18:07:47.188Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
-            <loc>https://nwasecondstagetransition.org/contact/</loc>
             <lastmod>2022-09-13T18:07:47.188Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
@@ -92,14 +76,6 @@
     
        
         <url>
-            <loc>https://nwasecondstagetransition.org/services/</loc>
-            <lastmod>2022-09-13T18:07:47.235Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
             <loc>https://nwasecondstagetransition.org/sign-up/assessment/</loc>
             <lastmod>2022-09-13T18:07:47.235Z</lastmod>
             <changefreq>monthly</changefreq>
@@ -118,6 +94,30 @@
         <url>
             <loc>https://nwasecondstagetransition.org/zohoverify/verifyforzoho/</loc>
             <lastmod>2022-09-13T18:07:47.250Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>https://nwasecondstagetransition.org/about/</loc>
+            <lastmod>2022-09-14T01:30:33.749Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>https://nwasecondstagetransition.org/contact/</loc>
+            <lastmod>2022-09-14T01:30:33.750Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>https://nwasecondstagetransition.org/services/</loc>
+            <lastmod>2022-09-14T01:30:33.809Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
