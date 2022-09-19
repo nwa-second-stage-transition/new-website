@@ -5,3 +5,4 @@ Disallow: /new-website-2022/*
 Disallow: /new-website/*
 Disallow: /blog/*
 Disallow: /outreach/*
+Disallow: /webdev/*
