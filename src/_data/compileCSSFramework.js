@@ -11,7 +11,7 @@ module.exports = async function() {
 
   // Create a custom, purged, version of Bootstrap
   const sourceCSS = "src/css/_bootstrap.css";
-  const destinationCSS = "docs/css/custom_bootstrap.css";
+  const destinationCSS = "docs/css/bootstrap_v1.css";
   // Add in your file types here
   const sourceContent = [
     'src/**/*.njk',
