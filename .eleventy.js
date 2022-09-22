@@ -4,7 +4,10 @@ const { DateTime } = require("luxon");
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
-  eleventyConfig.addPassthroughCopy({ "src/css": "css" });
+  eleventyConfig.addPassthroughCopy({ 
+    "src/css/bootstrap.css": "css/bootstrap.css",
+    "src/css/custom.css": "css/custom.css",
+  });
     eleventyConfig.addPassthroughCopy({ "src/img": "img" });
     eleventyConfig.addPassthroughCopy({ "src/js": "js" });
     eleventyConfig.addPassthroughCopy({ "src/zohoverify": "zohoverify" });
