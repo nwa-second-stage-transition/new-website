@@ -28,7 +28,10 @@ module.exports = async function() {
       purgeCSS({
         content: sourceContent,
         variables: true,
-        keyframes: true
+        keyframes: true,
+        safelist: {
+          greedy: [/show/]
+        }
       })
     ])
     .process(css, {
