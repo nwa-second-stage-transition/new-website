@@ -9,7 +9,7 @@ templateEngineOverride: njk,md
     <header>
       <div  class="navbar navbar-expand-md navbar-dark bd-navbar bg-blue">{% include '../_includes/header/header_v1.njk' %}</div>{% if page.fileSlug != "" %}<nav aria-label="breadcrumb" class="container">{% if '/outreach/*' in page.url %}{% include '../_includes/breadcrumb/breadcrumb_v2.njk' %}{% else %}{% include '../_includes/breadcrumb/breadcrumb_v1.njk' %}{% endif %}</nav>{% endif %}
     </header>
-    <div class="{{ 'landing' if page.fileSlug == ''}}">
+    <div class="{{ 'landing' if page.fileSlug == '' and landing == true }}">
       <main class="d-flex container flex-column">{{ content | safe }}</main>
     </div>
     <footer class="bg-blue">{% include '../_includes/footer/footer_v1.njk' %}</footer>
