@@ -4,7 +4,7 @@ const CleanCSS = require("clean-css");
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ 
-    "src/CNAME": "CNAME",    
+    "src/_external/CNAME": "CNAME",    
     "src/_includes/img/**/*": "img",
     "src/_external/zohoverify": "zohoverify",
     "./src/_external/robot.txt": "robot.txt",
