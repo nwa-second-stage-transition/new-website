@@ -5,5 +5,6 @@
     "description": "NWASST is a non-profit organization in Siloam Springs Arkansas.",
     "favicon": "https://nwasecondstagetransition.org/favicon.svg",
     "email": "info@nwasecondstagetransition.org",
-    "paypal_url": "https://www.paypal.com/donate/?hosted_button_id=L254DUFTZTPXJ"
+    "paypal_url": "https://www.paypal.com/donate/?hosted_button_id=L254DUFTZTPXJ",
+    "img_url": "https://nwasecondstagetransition.org/img/"
   }

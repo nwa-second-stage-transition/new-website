@@ -5,7 +5,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ 
     "src/_external/CNAME": "CNAME",    
-    "src/_includes/img/**/*": "img",
+    "src/_includes/img/**/*.*": "img",
+    "src/_includes/uploads/*.*": "uploads",
     "src/_external/zohoverify": "zohoverify",
     "./src/_external/robot.txt": "robot.txt",
     "./src/admin/config.yml": "admin/config.yml",
