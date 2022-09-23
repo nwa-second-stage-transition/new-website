@@ -8,10 +8,10 @@
 <meta content="{{description}}" name="description">
 <meta http-equiv="expires" content="7889400"/> <!-- 6 months-->
 <meta name="robots" content="{{robots}}"/>
-{% if page.fileSlug == ''%}<link rel="canonical" href="{{site.url}}"/>{% endif %}
+{% if page.fileSlug == ''%}<link rel="preload" href="{{site.url + '/img/trees-along-path-1920.webp'}}" as="image">{% endif %}{% if page.fileSlug == '/admin/'%}<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>{% endif %}
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" as="script" defer>
+<link rel="stylesheet" href="{{site.url + '/css/bootstrap_v1.css'}}">
 <link href="{{site.url + '/img/nwasst-logo-80.webp'}}" rel="shortcut icon" type="image/png">
 <link href="{{site.url + '/sitemap.xml'}}" rel="sitemap" title="Sitemap" type="application/xml">
-<link rel="stylesheet" href="{{site.url + '/css/bootstrap_v1.css'}}">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" as="script" defer>
-{% if page.fileSlug == ''%}<link rel="preload" href="{{site.url + '/img/trees-along-path-1920.webp'}}" as="image">{% endif %}{% if page.fileSlug == '/admin/'%}<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>{% endif %}
-<title>{{ title }}</title>
+{% if page.fileSlug == ''%}<link rel="canonical" href="{{site.url}}"/>{% endif %}
+<title>{{ title + ' | ' + subtitle }}</title>

@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- head_v1 -->
+  <head><!-- head_v1 -->
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://nwasecondstagetransition.org/img/*; child-src 'none';"> -->
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-<meta content="" name="description">
+<meta content="Your NWASST donation was canceled, if you have any concerns please contact us at {{site.email}}" name="description">
 <meta http-equiv="expires" content="7889400"/> <!-- 6 months-->
 <meta name="robots" content="noindex"/>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" as="script" defer>
+<link rel="stylesheet" href="https://nwasecondstagetransition.org/css/bootstrap_v1.css">
 <link href="https://nwasecondstagetransition.org/img/nwasst-logo-80.webp" rel="shortcut icon" type="image/png">
 <link href="https://nwasecondstagetransition.org/sitemap.xml" rel="sitemap" title="Sitemap" type="application/xml">
-<link rel="stylesheet" href="https://nwasecondstagetransition.org/css/bootstrap_v1.css">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" as="script" defer>
-<title>Donation to NWASST Canceled</title>
-    </head>
+<title>NWASST Donation Cancelation | Your NWASST Donation was canceled</title></head>
   <!-- layout: base_v2.njk -->
   <body class="text">
     <header>
@@ -75,7 +73,7 @@
 </ol></nav>
     </header>
     <div class="">
-      <main class="d-flex container flex-column"><!-- Donation Cancelation section -->
+      <main class="d-flex container flex-column"><!-- NWASST Donation Cancelation page -->
 <div id="ourStory" class="position-relative overflow-hidden p-3 p-md-3 m-md-3 text-center">
   <div class="col-md-6 mx-auto my-3 border border-warning border-4 rounded alert alert-warning" role="alert">
     <h1 class="display-4 pb-3 fw-normal">Your donation was canceled.</h1>
@@ -90,7 +88,7 @@
   <div class="product-device shadow-sm d-none d-md-block"></div>
   <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
 </div>
-<!-- END Donation Cancelation section --></main>
+<!-- end NWASST Donation Cancelation page --></main>
     </div>
     <footer class="bg-blue"><!-- footer_v1 -->
 <div class="container">
@@ -163,28 +161,24 @@
   </div>
 </div></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script><!-- script_v1 -->
-<script>
-    /** about carousel slide **/
+    <!-- script_v1 -->
+<script>/** about carousel slide **/
     const goAboutSlide = ((targetIndex) => {
         var theCarousel = document.querySelector('#aboutCarousel')
         var carousel = new bootstrap.Carousel(theCarousel);
         carousel.to(targetIndex);
     });
-<pre><code>document.getElementById(&quot;year&quot;).innerHTML = new Date().getFullYear();
-
-/** Netlify  **/
-if (window.netlifyIdentity) {
-    window.netlifyIdentity.on(&quot;init&quot;, user =&gt; {
-    if (!user) {
-        window.netlifyIdentity.on(&quot;login&quot;, () =&gt; {
-        document.location.href = &quot;/admin/&quot;;
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+    /** Netlify  **/
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+        if (!user) {
+            window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+            });
+        }
         });
     }
-    });
-}
-</code></pre>
-<p></script></script>
-<script src="https://nwasecondstagetransition.org/js/custom.js" defer></script></p>
+    </script>
   </body>
 </html>

@@ -8,14 +8,14 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://nwasecondstagetransition.org/img/*; child-src 'none';"> -->
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-<meta content="" name="description">
+<meta content="Please follow the provided link to the information you were looking for. If this is not what you were looking for please email us at {{site.email}}." name="description">
 <meta http-equiv="expires" content="7889400"/> <!-- 6 months-->
-<meta name="robots" content=""/>
+<meta name="robots" content="noindex"/>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" as="script" defer>
+<link rel="stylesheet" href="https://nwasecondstagetransition.org/css/bootstrap_v1.css">
 <link href="https://nwasecondstagetransition.org/img/nwasst-logo-80.webp" rel="shortcut icon" type="image/png">
 <link href="https://nwasecondstagetransition.org/sitemap.xml" rel="sitemap" title="Sitemap" type="application/xml">
-<link rel="stylesheet" href="https://nwasecondstagetransition.org/css/bootstrap_v1.css">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" as="script" defer>
-<title></title>
+<title>Redirect | Something went wrong when we were directing you to the resource you were looking for.</title>
     <meta http-equiv="refresh" content="3;" URL="https://nwasecondstagetransition.org/about/">
     <title>Redirecting to: </title>
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" as="script" defer>
@@ -159,26 +159,23 @@
 </div></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" defer></script>
     <!-- script_v1 -->
-<script>
-    /** about carousel slide **/
+<script>/** about carousel slide **/
     const goAboutSlide = ((targetIndex) => {
         var theCarousel = document.querySelector('#aboutCarousel')
         var carousel = new bootstrap.Carousel(theCarousel);
         carousel.to(targetIndex);
     });
-<pre><code>document.getElementById(&quot;year&quot;).innerHTML = new Date().getFullYear();
-
-/** Netlify  **/
-if (window.netlifyIdentity) {
-    window.netlifyIdentity.on(&quot;init&quot;, user =&gt; {
-    if (!user) {
-        window.netlifyIdentity.on(&quot;login&quot;, () =&gt; {
-        document.location.href = &quot;/admin/&quot;;
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+    /** Netlify  **/
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+        if (!user) {
+            window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+            });
+        }
         });
     }
-    });
-}
-</code></pre>
-</script>
+    </script>
   </body>
 </html>

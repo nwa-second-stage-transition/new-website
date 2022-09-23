@@ -1,14 +1,11 @@
 <!-- script_v1 -->
-<script>
-    /** about carousel slide **/
+<script>/** about carousel slide **/
     const goAboutSlide = ((targetIndex) => {
         var theCarousel = document.querySelector('#aboutCarousel')
         var carousel = new bootstrap.Carousel(theCarousel);
         carousel.to(targetIndex);
     });
-
     document.getElementById("year").innerHTML = new Date().getFullYear();
-
     /** Netlify  **/
     if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
@@ -19,4 +16,4 @@
         }
         });
     }
-</script>
+    </script>

@@ -1,9 +1,14 @@
 ---
-title: Services | NWASST has a variety of services to help you. Like Assessment, Counseling, Parenting Class, Support Group, and more.
 layout: base_v2.njk
-templateEngineOverride: njk,md
-robots: follow
+title: Services  
+subtitle: NWASST is here for you!
+description: NWASST has a variety of services to help you. Like Assessment, Counseling, Parenting Class, Support Group, and more.
+robots: follow, index
+imgpath: '/img/carousels/'
+images: ['group-discussion.jpg', 'nwasst-office.jpg', 'selfhelp-books.jpg']
+alt: ["Support Group", "NWASST's Office", "Self help books"]
 ---
+ 
 <!-- Page Intro -->
 <div class="row justify-content-center text-center">
   <div class="col-md-10 p-3 mb-5 bg-white-transparent rounded max-width">
@@ -145,21 +150,21 @@ robots: follow
         <div class="carousel-item active">
           <div class="container">
             <div class="carousel-caption align-items-center h-75">
-              <img alt="Support Group" class="d-block fuild-img" src="{{site.url + '/img/carousels/group-discussion.jpg'}}">
+              <img alt="{{alt[0]}}" class="d-block fuild-img" src="{{site.url + imgpath + images[0]}}">
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="container">
             <div class="carousel-caption align-items-center h-75">
-              <img alt="Office" class="d-block fuild-img" src="{{site.url + '/img/carousels/nwasst-office.jpg'}}">
+              <img alt="{{alt[1]}}" class="d-block fuild-img" src="{{site.url + imgpath + images[1]}}">
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="container">
             <div class="carousel-caption align-items-center h-75">
-              <img alt="Self help books" class="d-block fuild-img" src="{{site.url + '/img/carousels/selfhelp-books.jpg'}}">
+              <img alt="{{alt[2]}}" class="d-block fuild-img" src="{{site.url + imgpath + images[2]}}">
             </div>
           </div>
         </div>

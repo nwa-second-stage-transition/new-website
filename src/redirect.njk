@@ -1,4 +1,8 @@
 ---
+layout: redirect
+title: Redirect
+subtitle: Something went wrong when we were directing you to the resource you were looking for.
+description: Please follow the provided link to the information you were looking for. If this is not what you were looking for please email us at {{site.email}}.
 # This file does hijinx with the "pagingation" system to generate many small pages from one set of data...
 # and uses that do to redirects from some URLs to others.
 # We use this to try to keep old links working.
@@ -17,11 +21,11 @@ redirects:
   - {"from": "/donate.html", "to": "/get-involved/"}
   - {"from": "/connect.html", "to": "/contact/"}
   - {"from": "/events.html", "to": "/outreach/"}
-
+#
+robots: noindex
 # The "permalink" attribute determines where the output page will be located.
 permalink: "{{ redirect.from }}"
 # The "redirect" layout just has a small html header with the meta tags that do redirection.
-layout: redirect
 ---
 <div class="row justify-content-center text-center">
   <div class="col-md-10 p-3 my-5  bg-white-transparent rounded max-width">

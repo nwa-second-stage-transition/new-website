@@ -1,5 +1,5 @@
 const { DateTime } = require("luxon");
-
+const CleanCSS = require("clean-css");
 
 module.exports = function (eleventyConfig) {
 
@@ -8,10 +8,9 @@ module.exports = function (eleventyConfig) {
     "src/css/bootstrap.css": "css/bootstrap.css",
     "src/css/custom.css": "css/custom.css",
   });
-    eleventyConfig.addPassthroughCopy({ "src/img": "img" });
-    eleventyConfig.addPassthroughCopy({ "src/js": "js" });
-    eleventyConfig.addPassthroughCopy({ "src/zohoverify": "zohoverify" });
-    eleventyConfig.addPassthroughCopy("./src/robot.txt");
+    eleventyConfig.addPassthroughCopy({ "src/_includes/img/**/*": "img" });
+    eleventyConfig.addPassthroughCopy({ "src/_external/zohoverify": "zohoverify" });
+    eleventyConfig.addPassthroughCopy("./src/_external/robot.txt");
     eleventyConfig.addPassthroughCopy("./src/admin/config.yml");
     eleventyConfig.addPassthroughCopy("./src/sitemap.xsl");
     
