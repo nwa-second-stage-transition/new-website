@@ -8,9 +8,9 @@ module.exports = function (eleventyConfig) {
     "src/_includes/img/**/*.*": "img",
     "src/_includes/uploads/*.*": "uploads",
     "src/_external/zohoverify": "zohoverify",
-    "./src/_external/robot.txt": "robot.txt",
-    "./src/admin/config.yml": "admin/config.yml",
-    "./src/sitemap.xsl": "sitemap.xsl"
+    "src/_external/robot.txt": "robot.txt",
+    "src/admin/config.yml": "admin/config.yml",
+    "src/sitemap.xsl": "sitemap.xsl"
   });
      
   eleventyConfig.addFilter("unSlugify", (str) => {
