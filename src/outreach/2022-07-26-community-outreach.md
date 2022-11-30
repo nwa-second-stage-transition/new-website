@@ -5,6 +5,7 @@ subtitle:
 description: Drug and Alcohol Prevention Awareness
 rel: canonical
 robots: noindex
+eleventyExcludeFromCollections: true
 author: Cecelia
 date: 2022-07-26
 tags:
