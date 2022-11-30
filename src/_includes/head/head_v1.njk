@@ -13,5 +13,5 @@
 <link rel="stylesheet" href="{{site.url + '/css/bootstrap_v1.css'}}">
 <link href="{{site.url + '/img/nwasst-logo-80.webp'}}" rel="shortcut icon" type="image/png">
 <link href="{{site.url + '/sitemap.xml'}}" rel="sitemap" title="Sitemap" type="application/xml">
-{% if page.fileSlug == ''%}<link rel="canonical" href="{{site.url}}"/>{% endif %}
+{% if page.fileSlug == ''%}<link rel="{{rel}}}" href="{{site.url}}"/>{% endif %}
 <title>{{ title + ' | ' + subtitle }}</title>

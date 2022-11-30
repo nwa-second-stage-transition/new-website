@@ -3,6 +3,7 @@ layout: post
 title: Community Outreach
 subtitle: 
 description: Drug and Alcohol Prevention Awareness
+rel: canonical
 robots: noindex
 author: Cecelia
 date: 2022-07-26
