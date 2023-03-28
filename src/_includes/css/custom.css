@@ -109,6 +109,9 @@ html {
   .bg-white-transparent {
     background-color: rgba(255, 255, 255, 0.9);
   }
+  .bg-transparent {
+    background-color: rgba(20, 20, 20, 0.9);
+  }
   /*********************** links ******************************************/
   
   .nav-link {
